@@ -6,12 +6,19 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "gradio>=6.30.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-ollama>=1.1.0",
     "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
     "matplotlib>=3.11.2",
+    "nbformat>=5.11.1",
     "numpy>=2.5.3",
     "openai>=3.31.0",
+    "pdfminer-six>=20260107",
+    "plotly>=7.1.0",
     "pandas>=3.0.6",
     "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
 ]
